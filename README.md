@@ -23,25 +23,25 @@ Target User: Sales managers, business analysts, operations teams, and non-techni
 ##  Architecture & Project Structure
 AI Data Analyst System/
 
-.env # API keys and environment variables
+  .env # API keys and environment variables
 
-config.py # Configuration parameters and LLM settings
+  config.py # Configuration parameters and LLM settings
 
-prompts.py # Intent classification & code generation prompts
+  prompts.py # Intent classification & code generation prompts
 
-llm.py # OpenAI API client wrapper for Qwen
+  llm.py # OpenAI API client wrapper for Qwen
 
-helper.py # Code cleaning, execution input, and Plotly chart generator
+  helper.py # Code cleaning, execution input, and Plotly chart generator
 
-full_system.py # Core Agent decision logic and orchestration
+  full_system.py # Core Agent decision logic and orchestration
 
-app.py # Streamlit UI frontend
+  app.py # Streamlit UI frontend
 
-sales_data.csv # Sample dataset for testing
+  sales_data.csv # Sample dataset for testing
 
-PROJECT_PLAN.md 
+  PROJECT_PLAN.md 
 
-TEST_RESULTS.md # Test cases and validation results
+  TEST_RESULTS.md # Test cases and validation results
 
 
 
@@ -54,8 +54,7 @@ Setup & Execution Guide
 
 2. Installation
 Clone/download the repository and install the dependencies:
-```bash
-pip install streamlit pandas plotly openai python-dotenv
+-pip install streamlit pandas plotly openai python-dotenv
 
 3. Environment Configuration
 Create a .env file in the root folder and add your API key:
@@ -66,7 +65,7 @@ Launch the Streamlit web server:
     streamlit run app.py
 
 
-Example Usage
+##Example Usage
 1. Open the application and upload sales_data.csv via the sidebar.
 
 2. Review the automatically generated Data Quality report.
