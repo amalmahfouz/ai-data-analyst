@@ -65,7 +65,7 @@ Launch the Streamlit web server:
     streamlit run app.py
 
 
-##Example Usage
+## Example Usage
 1. Open the application and upload sales_data.csv via the sidebar.
 
 2. Review the automatically generated Data Quality report.
